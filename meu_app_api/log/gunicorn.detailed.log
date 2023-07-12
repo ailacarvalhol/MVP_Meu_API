@@ -1,0 +1,39 @@
+[2023-07-10 22:27:18,887] INFO _log() L187  127.0.0.1 - - [10/Jul/2023 22:27:18] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-10 22:27:18,891] INFO _log() L187  127.0.0.1 - - [10/Jul/2023 22:27:18] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-10 22:27:18,893] INFO _log() L187  127.0.0.1 - - [10/Jul/2023 22:27:18] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-10 22:27:18,998] INFO _log() L187  127.0.0.1 - - [10/Jul/2023 22:27:18] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-10 22:27:55,772] DEBUG get_produtos() L73   Coletando produtos  - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L73  
+[2023-07-10 22:27:55,782] DEBUG get_produtos() L83   4 produtos encontrados - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L83  
+[2023-07-10 22:27:55,783] INFO _log() L187  127.0.0.1 - - [10/Jul/2023 22:27:55] "GET /produtos HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-10 22:28:28,030] DEBUG add_produto() L42   Adicionando produto de nome: 'Meia' - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L42  
+[2023-07-10 22:28:28,041] DEBUG add_produto() L50   Adicionado produto de nome: 'Meia' - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L50  
+[2023-07-10 22:28:28,045] INFO _log() L187  127.0.0.1 - - [10/Jul/2023 22:28:28] "POST /produto HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-10 22:29:03,621] DEBUG get_produto() L97   Coletando dados sobre produto #Meia - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L97  
+[2023-07-10 22:29:03,627] DEBUG get_produto() L109  Produto encontrado: 'Meia' - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L109 
+[2023-07-10 22:29:03,629] INFO _log() L187  127.0.0.1 - - [10/Jul/2023 22:29:03] "GET /produto?produto=Meia HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-10 22:29:29,806] DEBUG del_produto() L123  Deletando dados sobre produto #Meia - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L123 
+[2023-07-10 22:29:29,811] DEBUG del_produto() L134  Deletado produto #Meia - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L134 
+[2023-07-10 22:29:29,812] INFO _log() L187  127.0.0.1 - - [10/Jul/2023 22:29:29] "DELETE /produto?produto=Meia HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-10 22:30:07,309] DEBUG add_produto() L42   Adicionando produto de nome: 'Meia' - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L42  
+[2023-07-10 22:30:07,317] DEBUG add_produto() L50   Adicionado produto de nome: 'Meia' - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L50  
+[2023-07-10 22:30:07,319] INFO _log() L187  127.0.0.1 - - [10/Jul/2023 22:30:07] "POST /produto HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-10 22:30:24,748] INFO _log() L187  127.0.0.1 - - [10/Jul/2023 22:30:24] "OPTIONS /produto?produto=Blusinha HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-10 22:30:24,752] DEBUG del_produto() L123  Deletando dados sobre produto #Blusinha - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L123 
+[2023-07-10 22:30:24,760] DEBUG del_produto() L134  Deletado produto #Blusinha - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L134 
+[2023-07-10 22:30:24,761] INFO _log() L187  127.0.0.1 - - [10/Jul/2023 22:30:24] "DELETE /produto?produto=Blusinha HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-11 19:55:44,895] INFO _log() L187  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.4:5000 - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-11 19:55:44,895] INFO _log() L187  [33mPress CTRL+C to quit[0m - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-11 19:55:44,896] INFO _log() L187   * Restarting with stat - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-11 19:58:47,606] DEBUG get_produtos() L73   Coletando produtos  - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L73  
+[2023-07-11 19:58:47,624] DEBUG get_produtos() L83   4 produtos encontrados - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L83  
+[2023-07-11 19:58:47,625] INFO _log() L187  127.0.0.1 - - [11/Jul/2023 19:58:47] "GET /produtos HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-11 19:58:50,359] INFO _log() L187  127.0.0.1 - - [11/Jul/2023 19:58:50] "OPTIONS /produto?produto=Banheira HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-11 19:58:50,367] DEBUG del_produto() L123  Deletando dados sobre produto #Banheira - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L123 
+[2023-07-11 19:58:50,375] DEBUG del_produto() L134  Deletado produto #Banheira - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L134 
+[2023-07-11 19:58:50,376] INFO _log() L187  127.0.0.1 - - [11/Jul/2023 19:58:50] "DELETE /produto?produto=Banheira HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
+[2023-07-11 19:58:52,833] DEBUG get_produtos() L73   Coletando produtos  - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L73  
+[2023-07-11 19:58:52,835] DEBUG get_produtos() L83   3 produtos encontrados - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/app.py L83  
+[2023-07-11 19:58:52,836] INFO _log() L187  127.0.0.1 - - [11/Jul/2023 19:58:52] "GET /produtos HTTP/1.1" 200 - - call_trace=/Users/Aila/Downloads/MVP_atualizado/meu_app_api/env/lib/python3.11/site-packages/werkzeug/_internal.py L187 
