@@ -1,8 +1,8 @@
 # Minha API
 
-Este pequeno projeto faz parte do material didático da Disciplina **Desenvolvimento Full Stack Básico** 
+Este pequeno projeto faz parte dos requisitos para composição de notas na disciplina de **Desenvolvimento Full Stack Básico.** 
 
-O objetivo aqui é ilustrar o conteúdo apresentado ao longo das três aulas da disciplina.
+O objetivo deste projeto é criar uma **Lista de Enxoval** para auxiliar as mães de primeira viagem. 
 
 ---
 ## Como executar 
